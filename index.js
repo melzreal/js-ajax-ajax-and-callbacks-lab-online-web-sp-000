@@ -5,6 +5,7 @@ $(document).ready(function (){
   $.get(url).done(function(data) {
       console.log('Done');
       console.log(data);
+      $('#results').html(response);
   });
 
 });
